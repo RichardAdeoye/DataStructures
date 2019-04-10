@@ -2,7 +2,16 @@ clear all;
 close all;
 clc;
 
-https://www.youtube.com/watch?v=Pn0zo30wfi4 %exponential
+function [numComparisons, targetIndex] = exponentialSearch(V, target)
 
-https://www.youtube.com/watch?v=5ZArZy3h7T4 %intepolation
-https://www.youtube.com/watch?v=VjB_Bh2hINs
+numComparisons = 0;
+arrayLength    = length(V);
+indexStart     = 1;
+indexEnd       = length(V);
+
+if(V(1) == target)
+    return 
+end
+
+while (i < arrayLength)
+
