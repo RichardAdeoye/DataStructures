@@ -1,7 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Title:     Binary Search Test Harness
-% Author:    Ian van der Linde
-% Rev. Date: 08-02-18
+% Title:     Exponential Search Test Harness
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear all;close all;clc;
@@ -44,7 +42,7 @@ plot([1:maxArraySize], floor(log2(1:maxArraySize)+1),     'k:', 'LineWidth', 2);
 
 xlabel('Array Size (N)','FontSize',14);
 ylabel('Comparisons', 'FontSize', 14);
-titleString = sprintf('%s\n%s', 'Binary Search (Successful)', 'Solid: Observed, Dotted: Expected');
+titleString = sprintf('%s\n%s', 'Exponential Search (Successful)', 'Solid: Observed, Dotted: Expected');
 title(titleString,'FontSize', 14);
 xlim([0 maxArraySize]);
 ylim([0 max(worst_comparisons)]);
@@ -53,4 +51,4 @@ axis square;
 
 % Store High0-resolution Image for Reports
 
-print -f1 -r300 -dbmp binarySearchSuccessful.bmp
+print -f1 -r300 -dbmp exponentialSearchSuccessful.bmp

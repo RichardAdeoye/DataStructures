@@ -39,4 +39,4 @@ xlabel('Array Version','FontSize',14);
 
 % Store High-resolution Image Suitable for use in Reports
 
-print -f1-r300-dbmpbubbleSortVisualisation.bmp
+print -f1 -r300 -dbmp bubbleSortVisualisation.bmp

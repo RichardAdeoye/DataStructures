@@ -4,7 +4,7 @@
 % Rev. Date: 08-02-18
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-clear all;close all;clc;
+%clear all;close all;clc;
 
 maxArraySize = 1024;
 
